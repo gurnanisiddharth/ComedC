@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "17700445923",
+    "firebase_url": "https://comedc.firebaseio.com",
+    "project_id": "comedc",
+    "storage_bucket": "comedc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17700445923:android:2cabe7621c193097e46fd6",
+        "android_client_info": {
+          "package_name": "com.example.comedc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17700445923-4em58ffvpg9l16rjf7eq47khmorrkp19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKwIHNAN9KTig__YJMcsk43FolUaBvRq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17700445923-4em58ffvpg9l16rjf7eq47khmorrkp19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

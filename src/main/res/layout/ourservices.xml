@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base"
+    android:orientation="vertical"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".OurservicesActivity"
+    tools:deviceIds="wear">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OUR SERVICES"
+        android:background="@color/background"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"
+        android:gravity="center"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:textColor="@color/textcolor"
+        android:text="We here introduce the concept of 'CoMedC' providing our users with the best medical assistance they require, on a single platform. Anyone who serves or provides any type of medical or healtcare facilities can use our platform 'CoMedC' to reach out different users to help them get the best medical assistance they require." />
+</LinearLayout>

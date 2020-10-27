@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity4">
+
+    <item
+        android:id="@+id/myprofile"
+        android:icon="@drawable/ic_baseline_person_24"
+        app:showAsAction="always"
+        android:title="My Profile"/>
+    <item
+        android:id="@+id/ourservices"
+        app:showAsAction="never"
+        android:title="Our Services">
+    </item>
+    <item
+        android:id="@+id/joinus"
+        app:showAsAction="never"
+        android:title="Join Us">
+    </item>
+    <item
+        android:id="@+id/facts"
+        app:showAsAction="never"
+        android:title="Facts">
+    </item>
+    <item
+        android:id="@+id/help"
+        app:showAsAction="never"
+        android:title="Help">
+    </item>
+    <item
+        android:id="@+id/feedback"
+        app:showAsAction="never"
+        android:title="Feedback">
+    </item>
+</menu>

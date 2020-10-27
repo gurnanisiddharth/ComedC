@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CoMedC</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_main4">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main5">MainActivity5</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+    <string name="title_activity_medicine_sample">MedicineSampleActivity</string>
+    <string name="title_activity_dialysis_sample">DialysisSampleActivity</string>
+    <string name="title_activity_cathlabs_sample">CathlabsSampleActivity</string>
+    <string name="title_activity_myprofile">MyprofileActivity</string>
+    <string name="title_activity_personal_info">PersonalInfoActivity</string>
+    <string name="title_activity_facts">FactsActivity</string>
+    <string name="title_activity_joinus">JoinusActivity</string>
+    <string name="title_activity_ourservices">OurservicesActivity</string>
+    <string name="title_activity_faqs">FaqsActivity</string>
+    <string name="title_activity_aboutus">AboutusActivity</string>
+    <string name="title_activity_policy">PolicyActivity</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base"
+    android:padding="@dimen/box_inset_layout_padding"
+    android:orientation="vertical"
+    tools:context=".FaqsActivity"
+    tools:deviceIds="wear">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAQ's"
+        android:background="@color/background"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"
+        android:gravity="center"
+        android:textSize="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Q1.) How can I join on CoMedC ?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textSize="20dp"
+                android:text="ans. For registering yourself on CoMedC, you need to fill the form 'join us' under menu section of home page, and we will be contacting you shortly." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Q2.) Can I keep a health record of my mother as well on my ID ?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/textcolor"
+                android:text="ans. NO, you can't exactly keep multiple health records but, yes you can book appointments and manage their regular tests." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Q3.) Are all the facilities and doctors on this platform verified ?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textSize="20dp"
+                android:text="ans. Yes, we only connect with the doctors and organizations after a complete verification process." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Q4.) How do I know which doctor is better for me? " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textSize="20dp"
+                android:text="ans. To find a suitable doctor for yourself, you find a doctor using diff. prefences for e.g- Consultation fees, distance from your location, times of availability and most importantly user ratings for individual doctors and different health organizations." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:text="Q5.) How can I campaign about a blood donation camp on CoMedC ?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textcolor"
+                android:textSize="20dp"
+                android:text="ans. You simply need to fill the form 'Join Us' under menu section on the home screen and we will contact you shortly to verify your details.Later the procees, we will notify all the nearby users about your blood donation camps, which will definitely help gather volunteers for your campaign." />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

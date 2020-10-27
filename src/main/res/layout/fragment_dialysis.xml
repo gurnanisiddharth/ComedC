@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/base"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DialysisFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/textcolor"
+        android:background="#0CDCF6"
+        android:text="DIALYSIS"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HOSPITAL A"
+                android:textSize="25dp"
+                android:textStyle="italic"
+                android:textColor="@color/textcolor"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HOSPITAL B"
+                android:textSize="25dp"
+                android:textStyle="italic"
+                android:textColor="@color/textcolor"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HOSPITAL C"
+                android:textSize="25dp"
+                android:textStyle="italic"
+                android:textColor="@color/textcolor"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HOSPITAL D"
+                android:textSize="25dp"
+                android:textStyle="italic"
+                android:textColor="@color/textcolor"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HOSPITAL E"
+                android:textSize="25dp"
+                android:textStyle="italic"
+                android:textColor="@color/textcolor"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

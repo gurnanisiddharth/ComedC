@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.comedc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="false" />
+
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity
+            android:name=".PolicyActivity"
+            android:label="@string/title_activity_policy">
+        </activity>
+        <activity
+            android:name=".AboutusActivity"
+            android:label="@string/title_activity_aboutus">
+        </activity>
+        <activity
+            android:name=".FaqsActivity"
+            android:label="@string/title_activity_faqs">
+        </activity>
+        <activity
+            android:name=".OurservicesActivity"
+            android:label="@string/title_activity_ourservices">
+        </activity>
+        <activity
+            android:name=".JoinusActivity"
+            android:label="@string/title_activity_joinus" />
+        <activity
+            android:name=".FactsActivity"
+            android:label="@string/title_activity_facts" />
+        <activity
+            android:name=".PersonalInfoActivity"
+            android:label="@string/title_activity_personal_info" />
+        <activity
+            android:name=".MyprofileActivity"
+            android:label="@string/title_activity_myprofile" />
+        <activity
+            android:name=".SampleActivity"
+            android:label="@string/title_activity_dialysis_sample" />
+        <activity
+            android:name=".OpdSampleActivity"
+            android:label="@string/title_activity_medicine_sample" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="@string/title_activity_feedback" />
+        <activity
+            android:name=".MainActivity5"
+            android:label="@string/title_activity_main5" />
+        <activity
+            android:name=".MainActivity4"
+            android:label="@string/title_activity_main4" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_main2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
